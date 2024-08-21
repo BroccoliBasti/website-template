@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/icon": "^1.4.5",
     "@nuxt/image": "^1.7.0",
+    "@vueuse/core": "^11.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "fontaine": "^0.5.0",
@@ -23,9 +24,10 @@
     "tailwindcss-animate": "^1.0.7",
     "vue": "latest"
   },
-  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a",
   "devDependencies": {
+    "@iconify-json/lucide": "^1.1.205",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "typescript": "^5.5.4"
-  }
+  },
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
 }

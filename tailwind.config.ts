@@ -15,7 +15,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      'lexend': ['Lexend', 'Arial', 'sans-serif']
+      'lexend': ['Lexend', 'Arial', 'sans-serif'],
+      'young': ['Young Serif', 'Times New Roman', 'serif'],
+      'vollkorn': ['Vollkorn Bold', 'Times New Roman', 'serif'],
     },
     extend: {
       colors: {
@@ -54,7 +56,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'hero-image': "url('assets/img/zach-reiner-BeRq6Ns_bUk-unsplash.jpg')"
+        'hero-image': "url('assets/img/zach-reiner-BeRq6Ns_bUk-unsplash.jpg')",
+        'pine': "url('assets/img/pine_silhouette.png')"
       },
       borderRadius: {
       	xl: "calc(var(--radius) + 4px)",
@@ -79,12 +82,33 @@ module.exports = {
           from: { height: 'var(--radix-collapsible-content-height)' },
           to: { height: 0 },
         },
+        "wiggle": {
+          '0%': {
+            transform: 'rotate(0deg)'
+          },
+          '10%, 90%': {
+            transform: 'rotate(0deg)'
+          },
+          
+          '20%, 80%': {
+            transform: 'rotate(-5deg)'
+          },
+        
+          '30%, 50%, 70%': {
+            transform: 'rotate(10deg)'
+          },
+        
+          '40%, 60%': {
+            transform: 'rotate(-15deg)'
+          },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "collapsible-down": "collapsible-down 0.2s ease-in-out",
         "collapsible-up": "collapsible-up 0.2s ease-in-out",
+        "wiggle": "wiggle 1s ease-in-out"
       },
     },
   },

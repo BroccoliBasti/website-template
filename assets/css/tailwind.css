@@ -10,36 +10,50 @@
     font-display: swap;
     src: url("../fonts/Lexend-Variable.ttf") format("truetype");
   }
+  @font-face {
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/YoungSerif-Regular.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Vollkorn Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Vollkorn-Bold.woff2") format("WOFF2");
+  }
 
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 33 22% 92%;
+    --foreground: 295 32% 7%;
  
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
+    --muted: 20 22% 89%;
+    --muted-foreground: 316 10% 31%;
  
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
+    --popover: 48 20% 95%;
+    --popover-foreground: 295 32% 7%;
  
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card: 48 20% 95%;
+    --card-foreground: 295 32% 7%;
  
     --border: 0 0% 89.8%;
     --input: 0 0% 89.8%;
  
-    --primary: 0 0% 9%;
+    --primary: 353 10% 15%;
     --primary-foreground: 0 0% 98%;
  
     --secondary: 0 0% 96.1%;
     --secondary-foreground: 0 0% 9%;
  
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
+    --accent: 0 24% 75%;
+    --accent-foreground: 339 27% 54%;
  
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
  
-    --ring: 0 0% 3.9%;
+    --ring: 316 30% 27%;
  
     --radius: 0.5rem;
   }
@@ -81,7 +95,7 @@
     @apply border-border font-lexend;
   }
   *::selection {
-    @apply bg-foreground text-foreground;
+    @apply bg-foreground text-background;
   }
   body {
     @apply bg-background text-foreground min-h-full;
