@@ -33,7 +33,7 @@ pnpx shadcn-vue@0.10.4 init
 
 ## Add components
 ```bash
-npx shadcn-vue@0.10.4 add <component>
+pnpx shadcn-vue@0.10.4 add <component>
 ```
 
 ```bash
